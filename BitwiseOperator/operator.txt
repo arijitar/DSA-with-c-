@@ -1,0 +1,10 @@
+Operator                                 Precedence
+
+!, +, -(unary operator)           first Right to Left
+*, /, %                           Second    L to R
++, -                              third     L to R
+<, <=, >=, >                      fourth    L to R
+==, !=                            fifth     L to R
+&&                                sixth     L to R 
+||                                seventh   L to R 
+= (assignment Operator)           last      R to L 
